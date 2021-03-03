@@ -16,13 +16,12 @@
 		B5547E7C25EE0EB50002B6B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5547E7A25EE0EB50002B6B8 /* LaunchScreen.storyboard */; };
 		B5547E8725EE0EB60002B6B8 /* UserStatsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5547E8625EE0EB60002B6B8 /* UserStatsAppTests.swift */; };
 		B5547E9225EE0EB60002B6B8 /* UserStatsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5547E9125EE0EB60002B6B8 /* UserStatsAppUITests.swift */; };
-		B5547FC725EE59C30002B6B8 /* libStatsData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5547FBE25EE59B20002B6B8 /* libStatsData.a */; };
-		B554803C25EEC3C20002B6B8 /* StatsViewsBundle.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = B5547FC025EE59B20002B6B8 /* StatsViewsBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B554804125EEC3CE0002B6B8 /* StatsViewsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5547FD925EE5BE40002B6B8 /* StatsViewsBundle.bundle */; };
 		B554806325EF54920002B6B8 /* UserStatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554806225EF54920002B6B8 /* UserStatsViewModel.swift */; };
 		B554807025EF6D530002B6B8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554806F25EF6D530002B6B8 /* NetworkManager.swift */; };
 		B554807925EF72310002B6B8 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554807825EF72310002B6B8 /* Bindable.swift */; };
 		B554808125EF8B670002B6B8 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554808025EF8B670002B6B8 /* ErrorModel.swift */; };
+		B5F6B1FA25EFFFCD007A4579 /* libStatsData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F6B1F925EFFFCD007A4579 /* libStatsData.a */; };
+		B5F6B1FF25F00002007A4579 /* StatsViewsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5F6B1FE25F00002007A4579 /* StatsViewsBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,20 +39,6 @@
 			remoteGlobalIDString = B5547E6825EE0EB40002B6B8;
 			remoteInfo = UserStatsApp;
 		};
-		B5547FBD25EE59B20002B6B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5547FB725EE59B20002B6B8 /* StatsData.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B5D530B425ED3E5700A5BE57;
-			remoteInfo = StatsData;
-		};
-		B5547FBF25EE59B20002B6B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5547FB725EE59B20002B6B8 /* StatsData.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B5547F5D25EE4D100002B6B8;
-			remoteInfo = StatsViewsBundle;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,7 +48,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B554803C25EEC3C20002B6B8 /* StatsViewsBundle.bundle in Embed PlugIns */,
 			);
 			name = "Embed PlugIns";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,12 +70,12 @@
 		B5547E8D25EE0EB60002B6B8 /* UserStatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserStatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5547E9125EE0EB60002B6B8 /* UserStatsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsAppUITests.swift; sourceTree = "<group>"; };
 		B5547E9325EE0EB60002B6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5547FB725EE59B20002B6B8 /* StatsData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StatsData.xcodeproj; path = ../StatsData/StatsData.xcodeproj; sourceTree = "<group>"; };
-		B5547FD925EE5BE40002B6B8 /* StatsViewsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = StatsViewsBundle.bundle; path = "../../../Library/Developer/Xcode/DerivedData/UserStatsApp-dmagzmutaqsggwgvvrnxlepwpjps/Build/Products/Debug-iphonesimulator/StatsViewsBundle.bundle"; sourceTree = "<group>"; };
 		B554806225EF54920002B6B8 /* UserStatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsViewModel.swift; sourceTree = "<group>"; };
 		B554806F25EF6D530002B6B8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B554807825EF72310002B6B8 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		B554808025EF8B670002B6B8 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		B5F6B1F925EFFFCD007A4579 /* libStatsData.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStatsData.a; path = "../ScoreAnalysisLibrary/DerivedData/StatsData/Build/Products/Debug-iphonesimulator/libStatsData.a"; sourceTree = "<group>"; };
+		B5F6B1FE25F00002007A4579 /* StatsViewsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = StatsViewsBundle.bundle; path = "../ScoreAnalysisLibrary/DerivedData/StatsData/Build/Products/Debug-iphonesimulator/StatsViewsBundle.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5547FC725EE59C30002B6B8 /* libStatsData.a in Frameworks */,
+				B5F6B1FA25EFFFCD007A4579 /* libStatsData.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +107,7 @@
 		B5547E6025EE0EB40002B6B8 = {
 			isa = PBXGroup;
 			children = (
-				B5547FD925EE5BE40002B6B8 /* StatsViewsBundle.bundle */,
-				B5547FB725EE59B20002B6B8 /* StatsData.xcodeproj */,
+				B5F6B1FE25F00002007A4579 /* StatsViewsBundle.bundle */,
 				B5547E6B25EE0EB40002B6B8 /* UserStatsApp */,
 				B5547E8525EE0EB60002B6B8 /* UserStatsAppTests */,
 				B5547E9025EE0EB60002B6B8 /* UserStatsAppUITests */,
@@ -182,17 +165,9 @@
 		B5547F0325EE3A260002B6B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5F6B1F925EFFFCD007A4579 /* libStatsData.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B5547FB825EE59B20002B6B8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B5547FBE25EE59B20002B6B8 /* libStatsData.a */,
-				B5547FC025EE59B20002B6B8 /* StatsViewsBundle.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B554804825EEC82F0002B6B8 /* ViewModel */ = {
@@ -310,12 +285,6 @@
 			mainGroup = B5547E6025EE0EB40002B6B8;
 			productRefGroup = B5547E6A25EE0EB40002B6B8 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B5547FB825EE59B20002B6B8 /* Products */;
-					ProjectRef = B5547FB725EE59B20002B6B8 /* StatsData.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B5547E6825EE0EB40002B6B8 /* UserStatsApp */,
@@ -325,29 +294,12 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		B5547FBE25EE59B20002B6B8 /* libStatsData.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libStatsData.a;
-			remoteRef = B5547FBD25EE59B20002B6B8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B5547FC025EE59B20002B6B8 /* StatsViewsBundle.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = StatsViewsBundle.bundle;
-			remoteRef = B5547FBF25EE59B20002B6B8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		B5547E6725EE0EB40002B6B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B554804125EEC3CE0002B6B8 /* StatsViewsBundle.bundle in Resources */,
+				B5F6B1FF25F00002007A4579 /* StatsViewsBundle.bundle in Resources */,
 				B5547E7C25EE0EB50002B6B8 /* LaunchScreen.storyboard in Resources */,
 				B5547E7925EE0EB50002B6B8 /* Assets.xcassets in Resources */,
 				B5547E7425EE0EB40002B6B8 /* Main.storyboard in Resources */,
